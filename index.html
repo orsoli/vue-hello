@@ -28,8 +28,11 @@
 
 <body>
     <!-- Container  -->
-    <div class="container mx-auto py-4" id="app">
-        <h1>{{message}}</h1>
+    <div class="container text-center mx-auto py-4" id="app">
+        <h1 class="mb-4">{{message}}</h1>
+        <figure>
+            <img :src="img" :alt="alt" class="w-100">
+        </figure>
     </div>
 
 

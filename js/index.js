@@ -10,7 +10,9 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      message: "First exercise using Veu.js Framework", // Create Message
+      message: "First exercise using Veu.js Framework", // Create Message variable
+      img: "https://cdn.dribbble.com/users/32512/screenshots/7701476/media/7896f20d280164017ce0e2e07aca20fa.png", // Create image variable
+      alt: "Veu.js Framework", // Create alt variable
     };
   },
 }).mount("#app");
